@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CALCULADORA.MainPage"
+             BackgroundColor="White">
+    <StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="Blue" Padding="24" CornerRadius="0"
+                       HeightRequest="50">
+                    <Label Text="Calculadora Básica PDM" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+                </Frame>
+                <Frame>
+                    <StackLayout>
+                        <Label x:Name="Labelnum1" Text="Valor # 1:" FontSize="20" TextColor="DarkBlue" FontAttributes="Bold" Padding="5" />
+                        <Entry x:Name="num1" Placeholder="Enter num1:" FontAttributes="Bold" Keyboard="Numeric" />
+
+                        <Label x:Name="Labelnum2" Text="Valor # 2:" FontSize="20" TextColor="DarkBlue" FontAttributes="Bold" Grid.Row="1" Grid.Column="0" />
+                        <Entry x:Name="num2" Placeholder="Enter num:" FontAttributes="Bold"  Keyboard="Numeric" Grid.Row="1" Grid.Column="1" />
+
+                        <Label x:Name="Labelres" Text="El Resultado es:" FontSize="20" TextColor="DarkBlue" FontAttributes="Bold" Grid.Row="2" Grid.Column="0" />
+                        <Label x:Name="res" FontSize="18" TextColor="Green" FontAttributes="Bold" Grid.Row="2" Grid.Column="1" />
+                    </StackLayout>
+                </Frame>
+                <StackLayout Orientation="Vertical">
+                    <Button x:Name="BtnAdd" Text="Suma" FontAttributes="Bold" BorderWidth="5" CornerRadius="25" BorderColor="#192a56" BackgroundColor="AliceBlue"  Grid.Row="3" Grid.Column="0" Clicked="BtnAdd_Clicked" />
+                    <Button x:Name="BtnSub" Text="Resta" FontAttributes="Bold"  BorderWidth="5" CornerRadius="25" BorderColor="#192a56" BackgroundColor="AliceBlue"  Grid.Row="3" Grid.Column="1" Clicked="BtnSub_Clicked" />
+                    <Button x:Name="BtnMul" Text="Multiplicación" FontAttributes="Bold"  BorderWidth="5" CornerRadius="25" BorderColor="#192a56" BackgroundColor="#0097e6"  Grid.Row="4" Grid.Column="0" Clicked="BtnMul_Clicked" />
+                    <Button x:Name="BtnDiv" Text="División" FontAttributes="Bold"  BorderWidth="5" CornerRadius="25" BorderColor="#192a56" BackgroundColor="#0097e6"  Grid.Row="4" Grid.Column="1" Clicked="BtnDiv_Clicked" />
+                    <Button x:Name="BtnRem" Text="Remainder" FontAttributes="Bold"  BorderWidth="5" CornerRadius="25" BorderColor="#192a56" BackgroundColor="#0097e"  Grid.Row="5" Grid.Column="0" Clicked="BtnRem_Clicked" />
+                    <Button x:Name="BtnClr" Text="Limpiar" FontAttributes="Bold"  BorderWidth="5" CornerRadius="25" BorderColor="#00a8ff" TextColor="White" BackgroundColor="#192a56"  Grid.Row="5" Grid.Column="1" Clicked="BtnClr_Clicked" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

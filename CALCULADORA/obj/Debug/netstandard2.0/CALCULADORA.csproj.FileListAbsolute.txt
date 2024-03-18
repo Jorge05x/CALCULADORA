@@ -1,0 +1,15 @@
+C:\Users\campu\source\repos\CALCULADORA\CALCULADORA\bin\Debug\netstandard2.0\CALCULADORA.deps.json
+C:\Users\campu\source\repos\CALCULADORA\CALCULADORA\bin\Debug\netstandard2.0\CALCULADORA.dll
+C:\Users\campu\source\repos\CALCULADORA\CALCULADORA\bin\Debug\netstandard2.0\ref\CALCULADORA.dll
+C:\Users\campu\source\repos\CALCULADORA\CALCULADORA\bin\Debug\netstandard2.0\CALCULADORA.pdb
+C:\Users\campu\source\repos\CALCULADORA\CALCULADORA\obj\Debug\netstandard2.0\CALCULADORA.csproj.AssemblyReference.cache
+C:\Users\campu\source\repos\CALCULADORA\CALCULADORA\obj\Debug\netstandard2.0\CALCULADORA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\campu\source\repos\CALCULADORA\CALCULADORA\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\campu\source\repos\CALCULADORA\CALCULADORA\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\campu\source\repos\CALCULADORA\CALCULADORA\obj\Debug\netstandard2.0\CALCULADORA.AssemblyInfoInputs.cache
+C:\Users\campu\source\repos\CALCULADORA\CALCULADORA\obj\Debug\netstandard2.0\CALCULADORA.AssemblyInfo.cs
+C:\Users\campu\source\repos\CALCULADORA\CALCULADORA\obj\Debug\netstandard2.0\CALCULADORA.csproj.CoreCompileInputs.cache
+C:\Users\campu\source\repos\CALCULADORA\CALCULADORA\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\campu\source\repos\CALCULADORA\CALCULADORA\obj\Debug\netstandard2.0\CALCULADORA.dll
+C:\Users\campu\source\repos\CALCULADORA\CALCULADORA\obj\Debug\netstandard2.0\refint\CALCULADORA.dll
+C:\Users\campu\source\repos\CALCULADORA\CALCULADORA\obj\Debug\netstandard2.0\CALCULADORA.pdb
